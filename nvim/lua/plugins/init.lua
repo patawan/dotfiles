@@ -18,13 +18,13 @@ return {
       { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
     },
   },
-  {
-    "jose-elias-alvarez/null-ls.nvim",
-    ft = {"python"},
-    opts = function()
-      return require "configs.null-ls"
-    end,
-  },
+  -- {
+  --   "jose-elias-alvarez/null-ls.nvim",
+  --   ft = {"python"},
+  --   opts = function()
+  --     return require "configs.null-ls"
+  --   end,
+  -- },
 
   {
     "stevearc/conform.nvim",
@@ -52,8 +52,7 @@ return {
   			"html-lsp",
         "css-lsp",
         "prettier",
-        "pyright",
-        "mypy",
+        "basedpyright",
         "ruff",
         "black"
   		},
@@ -65,7 +64,8 @@ return {
   	opts = {
   		ensure_installed = {
   			"vim", "lua", "vimdoc",
-       "html", "css"
+       "html", "css", "python",
+       "sql"
   		},
   	},
   },
