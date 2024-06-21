@@ -5,18 +5,17 @@
 local M = {}
 
 M.ui = {
-	theme = "bearded-arc",
-	statusline = {
-		theme = "default",
-		separator_style = "round",
-		overriden_modules = nil,
-	  },
+  theme = "bearded-arc",
+  statusline = {
+    theme = "minimal",
+    separator_style = "round",
+    overriden_modules = nil,
+  },
 
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
-
+  -- hl_override = {
+  -- 	Comment = { italic = true },
+  -- 	["@comment"] = { italic = true },
+  -- },
 }
 
 M.plugins = "plugins.init"
