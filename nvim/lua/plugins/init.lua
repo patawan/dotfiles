@@ -68,7 +68,8 @@ return {
         "ruff",
         "black",
         "isort",
-        "fixjson"
+        "fixjson",
+        "rust-analyzer"
   		},
   	},
   },
